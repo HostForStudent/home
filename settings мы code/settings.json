@@ -1,0 +1,37 @@
+{
+   "workbench.iconTheme": "vscode-icons",
+   "workbench.colorTheme": "Oceanic Next",
+   "files.autoSave": "afterDelay",
+   "editor.fontSize": 22,
+   "editor.tabSize": 3,
+   "editor.hideCursorInOverviewRuler": true,
+   "editor.detectIndentation": false,
+   "editor.mouseWheelZoom": true,
+   "workbench.editor.closeEmptyGroups": false,
+   "editor.formatOnSave": true,
+   "vscodeGoogleTranslate.preferredLanguage": "English",
+   "security.workspace.trust.untrustedFiles": "open",
+   "explorer.confirmDelete": false,
+   "liveServer.settings.donotVerifyTags": true,
+   "editor.minimap.enabled": false,
+   "explorer.confirmDragAndDrop": false,
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.formats": [
+      {
+         "format": "compressed",
+         "extensionName": ".min.css",
+         "autoprefix": "last 5 versions",
+         "savePath": "~/../css",
+      }
+   ],
+   "liveServer.settings.fullReload": true,
+   "liveServer.settings.donotShowInfoMsg": true,
+   "workbench.welcomePage.preferReducedMotion": true,
+   "workbench.editor.centeredLayoutAutoResize": false,
+   "breadcrumbs.enabled": false,
+   "workbench.startupEditor": "none",
+   "bracket-pair-colorizer-2.depreciation-notice": false,
+   "bracketPairColorizer.depreciation-notice": false,
+   "editor.hover.sticky": false,
+   "window.zoomLevel": 1
+}

@@ -1,0 +1,44 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.auto[]
+[
+   {
+      "key": "ctrl+shift+d",
+      "command": "extension.ecsstractor_port_runwithbem"
+   },
+   {
+      "key": "shift+alt+d",
+      "command": "extension.ecsstractor_port_run"
+   },
+   {
+      "key": "shift+alt+t",
+      "command": "extension.translateText"
+   },
+   {
+      "key": "shift+alt+t",
+      "command": "-extension.translateTextPreferred",
+      "when": "editorTextFocus"
+   },
+   {
+      "key": "shift+alt+y",
+      "command": "extension.translateTextPreferred"
+   },
+   {
+      "key": "ctrl+shift+a",
+      "command": "extension.bemHelper.insertElement",
+      "when": "editorTextFocus"
+   },
+   {
+      "key": "alt+b e",
+      "command": "-extension.bemHelper.insertElement",
+      "when": "editorTextFocus"
+   },
+   {
+      "key": "shift+alt+q",
+      "command": "editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+   },
+   {
+      "key": "ctrl+oem_2",
+      "command": "-editor.action.commentLine",
+      "when": "editorTextFocus && !editorReadonly"
+   }
+]

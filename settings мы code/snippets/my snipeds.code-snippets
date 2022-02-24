@@ -1,0 +1,140 @@
+{
+   // Place your GLOBAL snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+   // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+   // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+   // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+   // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+   // Placeholders with the same ids are connected.
+   // Example:
+   // "Print to console": {
+   // 	"scope": "javascript,typescript",
+   // 	"prefix": "log",
+   // 	"body": [
+   // 		"console.log('$1');",
+   // 		"$2"
+   // 	],
+   // 	"description": "Log output to console"
+   // }
+   "MY SNIPED JS click": {
+      "scope": "javascript,typescript",
+      "prefix": "click",
+      "body": [
+         "$1.addEventListener(\"click\",function(e){",
+         "$2",
+         "})"
+      ],
+      "description": "MY SNIPED js click"
+   },
+   "MY SNIPED JS for": {
+      "scope": "javascript,typescript",
+      "prefix": "forr",
+      "body": [
+         "for(let index = 0 ; index < ${1:elents}.length ; index++){",
+         "const ${2:element} = ${1:elents}[index];",
+         
+         "}",
+      ],
+      "description": "MY SNIPED js for"
+   },
+   "MY SNIPED css padding": {
+      "scope": "css,scss,sass",
+      "prefix": "ppp",
+      "body": [
+         "padding: $1px $2px $3px $4px;",
+         "$5"
+      ],
+      "description": "MY SNIPED css padding"
+   },
+   "MY SNIPED css padding same": {
+      "scope": "css,scss,sass",
+      "prefix": "pp",
+      "body": [
+         "padding: $1px $1px $1px $1px;",
+         "$2",
+      ],
+      "description": "MY SNIPED css padding sane"
+   },
+   "MY SNIPED css margin": {
+      "scope": "css,scss,sass",
+      "prefix": "mmm",
+      "body": [
+         "margin: $1px $2px $3px $4px;",
+         "$5"
+      ],
+      "description": "MY SNIPED css margin"
+   },
+   "MY SNIPED css margin same": {
+      "scope": "css,scss,sass",
+      "prefix": "mm",
+      "body": [
+         "margin: $1px $1px $1px $1px;",
+         "$2",
+      ],
+      "description": "MY SNIPED css margin same"
+   },
+   "MY SNIPED css border radius": {
+      "scope": "css,scss,sass",
+      "prefix": "brr",
+      "body": [
+         "border-radius: ${1:50%};",
+         "$2",
+      ],
+      "description": "MY SNIPED css border radius"
+   },
+   "MY SNIPED css flex": {
+      "scope": "css,scss,sass",
+      "prefix": "dff",
+      "body": [
+         "display: flex;",
+         "align-items: center;",
+         "justify-content: center;"
+      ],
+      "description": "MY SNIPED css flex"
+   },
+   "MY SNIPED css null": {
+      "scope": "css,scss,sass",
+      "prefix": "null",
+      "body": [
+         "/*Обнуление*/",
+         "*{",
+         "padding: 0;",
+         "margin: 0;",
+         "border: 0;",
+         "}",
+         "*,*:before,*:after{",
+         "-moz-box-sizing: border-box;",
+         "-webkit-box-sizing: border-box;",
+         "box-sizing: border-box;",
+         "}",
+         ":focus,:active{outline: none;}",
+         "a:focus,a:active{outline: none;}",
+         "",
+         "nav,footer,header,aside{display: block;}",
+         "",
+         "html,body{",
+         "height: 100%;",
+         "width: 100%;",
+         "font-size: 100%;",
+         "line-height: 1;",
+         "font-size: 14px;",
+         "-ms-text-size-adjust: 100%;",
+         "-moz-text-size-adjust: 100%;",
+         "-webkit-text-size-adjust: 100%;",
+         "}",
+         "input,button,textarea{font-family:inherit;}",
+         "",
+         "input::-ms-clear{display: none;}",
+         "button{cursor: pointer;}",
+         "button::-moz-focus-inner {padding:0;border:0;}",
+         "a, a:visited{text-decoration: none;}",
+         "a:hover{text-decoration: none;}",
+         "ul li{list-style: none;}",
+         "img{vertical-align: top;}",
+         "",
+         "h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}",
+         "/*--------------------*/",
+         "$1",
+      ],
+      "description": "MY SNIPED css null"
+   },
+}
